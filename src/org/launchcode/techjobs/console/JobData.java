@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Collections;
 
 /**
  * Created by LaunchCode
@@ -43,7 +44,8 @@ public class JobData {
                 values.add(aValue);
             }
         }
-
+        // sorting the lists hopefully
+        Collections.sort(values);
         return values;
     }
 
